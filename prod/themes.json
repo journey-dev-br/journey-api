@@ -1,0 +1,9 @@
+[
+    { "name": "angular", "title": "Angular", "quantity": 0 },
+    { "name": "javascript", "title": "Javascript", "quantity": 0 },
+    { "name": "css", "title": "CSS", "quantity": 0 },
+    { "name": "html", "title": "HTML", "quantity": 0 },
+    { "name": "nodejs", "title": "Node JS", "quantity": 0 },
+    { "name": "vscode", "title": "VSCode", "quantity": 0 },
+    { "name": "internet", "title": "Internet", "quantity": 0 }
+]
