@@ -2,20 +2,20 @@
 
     { "id": "TAN000001", "area": "tools", "theme": "angular", "title": "Artigo 1 da Ferramento Angular", 
       "description": "Descrição do artigo 1 da Ferramenta Angular possibilita um aprendizado relrvante...",
-      "date": new Date(2020, 11, 16), "isNew": false, "level": 1, "last": "", "next": "" },
+      "date": "2014-01-01T23:28:56.782Z", "isNew": false, "level": 1, "last": "", "next": "" },
     { "id": "TAN000002", "area": "tools", "theme": "angular", "title": "Artigo 2 da Ferramento Angular", 
       "description": "Descrição do artigo 2 da Ferramenta Angular possibilita um aprendizado relrvante...",
-      "date": new Date(2020, 11, 17), "isNew": false, "level": 2, "last": "", "next": "" },
+      "date": "2015-01-01T23:28:56.782Z", "isNew": false, "level": 2, "last": "", "next": "" },
     { "id": "TAN000003", "area": "tools", "theme": "angular", "title": "Artigo 3 da Ferramento Angular", 
       "description": "Descrição do artigo 3 da Ferramenta Angular possibilita um aprendizado relrvante...",
-      "date": new Date(2020, 11, 18), "isNew": true, "level": 3, "last": "", "next": "" },
+      "date": "2016-01-01T23:28:56.782Z", "isNew": true, "level": 3, "last": "", "next": "" },
 
     { "id": "DAN000001", "area": "tips", "theme": "angular", "title": "Artigo 1 da Dicas Angular", 
       "description": "Descrição do artigo 1 das Dicas Angular possibilita um aprendizado relrvante...",
-      "date": new Date(2020, 11, 19), "isNew": true, "level": 1, "last": "", "next": "" },
+      "date": "2017-01-01T23:28:56.782Z", "isNew": true, "level": 1, "last": "", "next": "" },
 
     { "id": "VIN000001", "area": "varieties", "theme": "internet", "title": "Artigo 1 das Variedades da Internet", 
       "description": "Descrição do artigo 1 das Variedades da Internet possibilita um aprendizado relrvante...",
-      "date": new Date(2020, 11, 20), "isNew": false, "level": 2, "last": "", "next": "" }
+      "date": "2018-01-01T23:28:56.782Z", "isNew": false, "level": 2, "last": "", "next": "" }
        
 ]
