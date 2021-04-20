@@ -1,21 +1,27 @@
 [
 
-    { "id": "a000001", "area": "tools", "theme": "angular", "title": "Artigo 1 da Ferramento Angular", 
-      "description": "Descrição do artigo 1 da Ferramenta Angular possibilita um aprendizado relrvante...",
-      "date": "2014-01-01T23:28:56.782Z", "isNew": false, "level": 1, "last": "", "next": "" },
-    { "id": "a000002", "area": "tools", "theme": "angular", "title": "Artigo 2 da Ferramento Angular", 
-      "description": "Descrição do artigo 2 da Ferramenta Angular possibilita um aprendizado relrvante...",
-      "date": "2015-01-01T23:28:56.782Z", "isNew": false, "level": 2, "last": "", "next": "" },
-    { "id": "a0200600001", "area": "tools", "theme": "angular", "title": "Artigo 3 da Ferramento Angular", 
-      "description": "Descrição do artigo 3 da Ferramenta Angular possibilita um aprendizado relrvante...",
-      "date": "2016-01-01T23:28:56.782Z", "isNew": true, "level": 3, "last": "", "next": "" },
+    { "id": "a0200100001", "area": "tools", "theme": "angular", "title": "Conhecendo o framework Angular", 
+      "description": "O que é e como o Angular pode lhe ajudar a organizar e ter desempenho no desenvolvimento de seu software para web.",
+      "date": "2021-04-20T18:19:00.000Z", "isNew": true, "level": 1, "last": "", "next": "a0200100002" },
+    { "id": "a0200100002", "area": "tools", "theme": "angular", "title": "As versões do Angular", 
+      "description": "A versão 1 do Angular (Angular JS) e a ruptura a partir da versão 2.",
+      "date": "2021-04-20T18:22:00.000Z", "isNew": true, "level": 1, "last": "a0200100001", "next": "a0200100003" },
+    { "id": "a0200100003", "area": "tools", "theme": "angular", "title": "Instalação do Angular", 
+      "description": "Passo a passo paa instalar e testar o framework Angular no sistema operacional Windows.",
+      "date": "2021-04-20T18:30:00.000Z", "isNew": true, "level": 1, "last": "a0200100002", "next": "a0200100004" },
+    { "id": "a0200100004", "area": "tools", "theme": "angular", "title": "Primeiro App Angular - Hello Word", 
+      "description": "Crie um projeto Angular e realize o primeiro build gerando um Hello Word.",
+      "date": "2021-04-20T18:32:00.000Z", "isNew": true, "level": 1, "last": "a0200100003", "next": "" },
 
-    { "id": "DAN000001", "area": "tips", "theme": "angular", "title": "Artigo 1 da Dicas Angular", 
-      "description": "Descrição do artigo 1 das Dicas Angular possibilita um aprendizado relrvante...",
-      "date": "2017-01-01T23:28:56.782Z", "isNew": true, "level": 1, "last": "", "next": "" },
-
-    { "id": "VIN000001", "area": "varieties", "theme": "internet", "title": "Artigo 1 das Variedades da Internet", 
-      "description": "Descrição do artigo 1 das Variedades da Internet possibilita um aprendizado relrvante...",
-      "date": "2018-01-01T23:28:56.782Z", "isNew": false, "level": 2, "last": "", "next": "" }
-       
+    { "id": "a0200600001", "area": "tools", "theme": "nodejs", "title": "Conhecendo o Node JS e o NPM", 
+      "description": "O que é e para que serve o NodeJS e o repositório do NPM.",
+      "date": "2021-04-20T18:35:00.000Z", "isNew": true, "level": 1, "last": "", "next": "a0200600002" },
+    { "id": "a0200600002", "area": "tools", "theme": "nodejs", "title": "Instalação do Node JS", 
+      "description": "Passo a passo para instalar e testar o Node JS no sistema operacional Windows.",
+      "date": "2021-04-20T18:40:00.000Z", "isNew": true, "level": 1, "last": "a0200600001", "next": "" },
+      
+    { "id": "a0300100001", "area": "tips", "theme": "angular", "title": "Exibição de data no formato DD/MM/AAAA", 
+      "description": "Como exibir um objeto Date no formato padrão de datas utilizado no Brasil.",
+      "date": "2021-04-20T18:45:00.000Z", "isNew": true, "level": 1, "last": "", "next": "" }
+         
 ]
