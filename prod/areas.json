@@ -2,5 +2,6 @@
     { "name": "courses", "title": "CURSOS" },
     { "name": "tools", "title": "FERRAMENTAS" },
     { "name": "tips", "title": "DICAS" },
+    { "name": "projects", "title": "PROJETOS" },
     { "name": "varieties", "title": "VARIEDADES" }
 ]
