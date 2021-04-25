@@ -20,13 +20,16 @@ console.log('Search String:' + window.location.search);<br>
     </div>
 </div>  
 
-<p>Veja baixo exemplo para esta pagina (teste 1):</p>
+<p>Veja baixo exemplo para esta pagina (teste 2):</p>
+<script>
+    function IncludeTextArticle1(text) {
+        document.getElementById("id-html-include").innerHTML = text
+    }
+</script>
 <div id="id-html-include">
     carregando...
 </div>
-<style onload="() => {
-    document.getElementById('id-html-include').innerHTML = 'Teste inclusão texto'
-}"></style>
+<style onload="IncludeTextArticle1('Nivaldo conseguiu incluir o texto...')"></style>
 
 <!-- 
     <style onload="IncludeTextArticle(
