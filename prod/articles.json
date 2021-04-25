@@ -27,6 +27,5 @@
     { "id": "a0300400001", "area": "tips", "theme": "css", "title": "Exemplo de fonte size responsivo com CSS", 
       "description": "Como implementar tamanho de fonte(font-size) responsivo baseado no tamanho horizontal(width) da tela.",
       "date": "2021-04-23T11:25:00.000Z", "isNew": true, "level": 2, "last": "", "next": "" }
-      
-    
+        
 ]
