@@ -20,19 +20,15 @@ console.log('Search String:' + window.location.search);<br>
     </div>
 </div>  
 
-<p>Veja baixo exemplo para esta pagina (teste 4):</p>
-<div id="id-html-include">
-    carregando...
-</div>
-<style onload="IncludeTextArticle('Nivaldo conseguiu incluir o texto...' + window.location.href)"></style>
+<p>Veja abaixo exemplo dos parametros e informações para esta pagina:</p>
 
-<script type="text/javascript">
-        function IncludeTextArticle1(text) {
-            document.getElementById("id-html-include").innerHTML = text
-        }
-</script>
-<!-- 
-    <style onload="IncludeTextArticle(
-        '<code>codigo inserido dinanicamente</code>'
-    )"></style>
--->
+<p id="id-html-include"></p>
+<style onload="IncludeTextArticle(
+    'URL..........: ' + window.location.href + '<br>' +
+    'Path.........: ' + window.location.pathname + '<br>' +
+    'Host.........: ' + window.location.host + '<br>' +
+    'Hostname.....: ' + window.location.hostname + '<br>' +
+    'Origin.......: ' + window.location.origin + '<br>' +
+    'Port.........: ' + window.location.port + '<br>' +
+    'Search String: ' + window.location.search + '<br>'   
+)"></style>
