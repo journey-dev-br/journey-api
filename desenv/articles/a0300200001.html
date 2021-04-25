@@ -20,16 +20,15 @@ console.log('Search String:' + window.location.search);<br>
     </div>
 </div>  
 
+<script>
+    var wlURL = window.location.href
+</script>
+
 <p>Exemplos do conteúdo das variaveis para esta pagina que você está vendo:</p>
 <code>URL: window.location.href</code>
 <code>URL: {window.location.href}</code>
 <code>URL: {{window.location.href}}</code>
 <code>URL: "{window.location.href}"</code>
 <code>URL: "{{window.location.href}}"</code>
-<code>Teste: {{printVariable()}}</code>
+<code>Teste 2: {{wlURL}}</code>
 
-<script>
-    printVariable = () => {
-        return "Nivaldão deu certo"
-    }
-</script>
