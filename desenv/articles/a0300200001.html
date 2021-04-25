@@ -2,7 +2,7 @@
 <script>
     window.onload = function() { console.log("função do window.onload") };
 
-    (function() {
+    var printa = (function() {
         console.log("função anonima do script")
     })();
 </script>
@@ -28,4 +28,4 @@ console.log('Search String:' + window.location.search);<br>
     </div>
 </div>  
 
-<div>Teste 2:</div>
+<div>Teste 2: {{printa()}}</div>
