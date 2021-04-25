@@ -20,19 +20,16 @@ console.log('Search String:' + window.location.search);<br>
     </div>
 </div>  
 
-<div>Teste novão 6:</div>
-<div>****** Abaixo vai aparecer o texto carregado dinamicamente: ******</div>
-
+<p>Veja baixo exemplo para esta pagina (teste 1):</p>
 <div id="id-html-include">
     carregando...
 </div>
-
-<style onload="ArticleFunction('<code>codigo inserido dinanicamente</code>')"></style>
-
-<div>****** Fim do texto carregado dinamicamente ******</div>
+<style onload="() => {
+    document.getElementById('id-html-include').innerHTML = 'Teste inclusão texto'
+}"></style>
 
 <!-- 
-<script onload="ArticleFunction('Executando a função no onload no script')">
-    console.log("no HTML externo, dentro do script")
-</script>
+    <style onload="IncludeTextArticle(
+        '<code>codigo inserido dinanicamente</code>'
+    )"></style>
 -->
