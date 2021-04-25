@@ -70,6 +70,9 @@ console.log('Search String:' + window.location.search);<br>
     console.log("printando no script do html...")
 </script>
 
-<p>Teste movo 1:</p>
-<p>URL: "{{responseTextVariavle(window.location.href)}}"</p>
+<p>Teste novo 1:</p>
 
+<td ng-if="responseTextVariavle(window.location.href) != null">
+    {{ responseTextVariavle(window.location.href) }}
+</td>
+<td ng-if="responseTextVariavle(window.location.href) == null">Loading Function ...</td>
