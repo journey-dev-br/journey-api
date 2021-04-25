@@ -1,5 +1,5 @@
 
-<p class="article-title">Como recuperar parametros e informações da URL</p>
+<p class="article-title">Recuperando parametros e informações da URL atual</p>
 <p>Veja abaixo variaveis de ambiente que retornam parametros e informaçoes da URL atual e que voce pode utilizar no código javascript.</p>
 <p>Copie e cole no seu código e veja o resultado:</p>
 
@@ -19,63 +19,3 @@ console.log('Search String:' + window.location.search);<br>
         </a>
     </div>
 </div>  
-
-<script>
-    var wlURL = window.location.href
-</script>
-
-<p>Exemplos do conteúdo das variaveis para esta pagina que você está vendo:</p>
-<code>URL com inner 2: <span [innerHTML]="{{window.location.href}}"></span>
-</code>
-
-<code>URL: window.location.href</code>
-<code>URL: {window.location.href}</code>
-<code>URL: {{window.location.href}}</code>
-<code>URL: "{window.location.href}"</code>
-<code>URL: "{{window.location.href}}"</code>
-<code>Teste 2: {{wlURL}}</code>
-
-<p>Teste com script:</p>
-
-<script>
-    let url = window.location.href
-    document.body.innerHTML = 
-    "<code>URL: " + url + "</code><br>"
-</script>
-
-<p>Teste com script 2:</p>
-<div id="mydiv"></div>
-<script>
-    let url = window.location.href
-    var mydiv = document.getElementById("mydiv");
-    var newcontent = document.createElement('div');
-    newcontent.innerHTML = "<code>URL: " + url + "</code><br>";
-    while (newcontent.firstChild) {
-        mydiv.appendChild(newcontent.firstChild);
-    }
-</script>
-
-<script>
-    let url = window.location.href
-    var newElement = document.createElement('div');
-    newElement.innerHTML = "<code>URL: " + url + "</code><br>";
-    document.getElementById("mydiv").appendChild(newElement);
-</script>
-<p>Teste com script 3:</p>
-<div id="mydiv"></div>
-
-<p>Teste com script com console log 2:</p>
-<script type="text/javascript">
-    var url = window.location.href
-    console.log("printando no script do html...")
-</script>
-
-<p>Teste novo 1:</p>
-
-<td ng-if="responseTextVariavle(window.location.href) != null">
-    {{ responseTextVariavle(window.location.href) }}
-</td>
-<td ng-if="responseTextVariavle(window.location.href) == null">Loading Function ...</td>
-
-<p>Teste novo 2#:</p>
-<p>"URL: " + <script> console.log("Dentro do teste 2#") </script></p>
