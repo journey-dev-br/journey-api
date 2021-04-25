@@ -42,3 +42,15 @@ console.log('Search String:' + window.location.search);<br>
     document.body.innerHTML = 
     "<code>URL: " + url + "</code><br>"
 </script>
+
+<p>Teste com script 2:</p>
+<div id="mydiv"></div>
+<script>
+    let url = window.location.href
+    var mydiv = document.getElementById("mydiv");
+    var newcontent = document.createElement('div');
+    newcontent.innerHTML = "<code>URL: " + url + "</code><br>";
+    while (newcontent.firstChild) {
+        mydiv.appendChild(newcontent.firstChild);
+    }
+</script>
