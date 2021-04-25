@@ -20,15 +20,18 @@ console.log('Search String:' + window.location.search);<br>
     </div>
 </div>  
 
-<div>Teste novão 3:</div>
-<script onload="ArticleFunction('Executando a função no onload')"></script>
+<div>Teste novão 4:</div>
+<script onload="ArticleFunction('Executando a função no onload no script')">
+    console.log("no HTML externo, dentro do script")
+</script>
 <div>Div depois do onload script</div>
 
-
-<div onload="ArticleFunction('Nivaldo está executando a função')">
-    na div do onload
+<style onload="ArticleFunction('Executando a função no onload no style')">
+</style>
+<div>
+    na div depois do onload no style
 </div>
 
-<div *ngIf="articleFunction('Nivaldo está executando a função')">
+<div *ngIf="ArticleFunction('Nivaldo está executando a função')">
     Dentro do nfgIf do html
 </div>
