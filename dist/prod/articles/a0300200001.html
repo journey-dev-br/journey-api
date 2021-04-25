@@ -1,6 +1,6 @@
 
 <p class="article-title">Recuperando parametros e informações da URL atual</p>
-<p>Veja abaixo variaveis de ambiente que retornam parametros e informaçoes da URL atual e que voce pode utilizar no código javascript.</p>
+<p>Veja abaixo variaveis de ambiente que retornam parametros e informações da URL atual e que voce pode utilizar no código javascript.</p>
 <p>Copie e cole no seu código e veja o resultado:</p>
 
 <div class="box-code">
@@ -11,7 +11,6 @@ console.log('Host:' + window.location.host);<br>
 console.log('Hostname:' + window.location.hostname);<br>
 console.log('Origin:' + window.location.origin);<br>
 console.log('Port:' + window.location.port);<br>
-console.log('Search String:' + window.location.search);<br>
     </div>
     <div class="box-icon">
         <a onclick="CopyTextCode('article-text-a0300200001-1')">
@@ -19,3 +18,18 @@ console.log('Search String:' + window.location.search);<br>
         </a>
     </div>
 </div>  
+
+<p>Veja abaixo exemplo dos parametros e informações referentes a esta pagina:</p>
+
+<p id="id-html-include"></p>
+<style onload="IncludeTextArticle(
+'<span class=&#34; text-mono &#34;>' +
+    '1)-URL.....: ' + window.location.href + '<br>' +
+    '2)-Path....: ' + window.location.pathname + '<br>' +
+    '3)-Host....: ' + window.location.host + '<br>' +
+    '4)-Hostname: ' + window.location.hostname + '<br>' +
+    '5)-Origin..: ' + window.location.origin + '<br>' +
+    '6)-Port....: ' + window.location.port + '<br>' +
+'</span>'       
+)"></style>
+
