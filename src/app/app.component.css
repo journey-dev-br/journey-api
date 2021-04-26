@@ -1,0 +1,37 @@
+
+.app-container {
+    background-color: #ffffff;
+}
+
+.app-content {
+    margin-top: calc(40px + 4vw);
+    margin-bottom: calc(60px + 6vw);
+    margin-left: 3%;
+    margin-right: 3%;
+    /*-- Fonte padrão --*/
+    font-family: 'Merriweather', serif;
+    font-size: calc(9px + 0.9vw);
+    line-height: 1.7;
+    color: #333333;
+}
+
+@media only screen and (min-width: 415px) {
+    .app-content {
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .app-content {
+        margin-left: 19%;
+        margin-right: 19%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .app-content {
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+}
