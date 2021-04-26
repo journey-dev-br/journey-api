@@ -30,8 +30,8 @@
       "description": "Dica prática de como recuperar no código javascript parametros e informações da URL atual com a variável de ambiente window.location.",
       "date": "2021-04-25T12:10:00.000Z", "isNew": true, "level": 1, "last": "", "next": "" },
           
-    { "id": "a0300300001", "area": "tips", "theme": "html", "title": "Como abrir um link em uma nova janela do navegador", 
-      "description": "Veja como fazer para que quando um link for clicado seja aberto em uma nova janela do navegador.",
+    { "id": "a0300300001", "area": "tips", "theme": "html", "title": "Como abrir um link em uma nova aba do navegador", 
+      "description": "Veja como fazer para que quando um link for clicado seja aberto em uma nova aba do navegador.",
       "date": "2021-04-25T22:12:00.000Z", "isNew": true, "level": 1, "last": "", "next": "" },
             
     { "id": "a0300400001", "area": "tips", "theme": "css", "title": "Exemplo de fonte size responsivo com CSS", 
