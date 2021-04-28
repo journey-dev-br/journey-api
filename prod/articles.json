@@ -13,13 +13,9 @@
       "description": "Crie o primeiro projeto Angular e altere a aplicação que exibir um Hello Word.",
       "date": "2021-04-20T18:32:00.000Z", "isNew": false, "level": 1, "last": "a0200100003", "next": "" },
 
-    { "id": "a0200600001", "area": "tools", "theme": "nodejs", "title": "Conhecendo o Node JS e o NPM", 
-      "description": "O que é e para que serve o NodeJS e o repositório do NPM.",
-      "date": "2021-04-20T18:35:00.000Z", "isNew": false, "level": 1, "last": "", "next": "a0200600002" },
     { "id": "a0200600002", "area": "tools", "theme": "nodejs", "title": "Instalação do Node JS", 
       "description": "Passo a passo para instalar e testar o Node JS no sistema operacional Windows.",
       "date": "2021-04-20T18:40:00.000Z", "isNew": false, "level": 1, "last": "a0200600001", "next": "" },
-
 
 
     { "id": "a0300100001", "area": "tips", "theme": "angular", "title": "Como exibir data no formato DD/MM/AAAA com Pipe", 
